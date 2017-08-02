@@ -1,0 +1,49 @@
+.doc-element {
+    width:100%;
+    padding: 4px 16px;
+    position: relative;
+}
+.doc-element__text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height:20px;
+    margin-bottom: 8px;
+    font-weight: 400;
+}
+.bold {
+    font-weight: 600;
+}
+.doc-element__inline  .doc-element__inline-block {
+    display: inline;
+    vertical-align: top;
+}
+
+.doc-element__btns {
+    float: right;
+}
+
+.doc-element__btns__btn {
+    width: 40px;
+    height: 40px;
+    border: none;
+    font-size: 18px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 3px;
+}
+.doc-element__row {
+    display: inline-block;
+    width: 100%;
+}
+.col {
+    float: left;
+}
+.col + .col {
+    padding-left: 32px;
+}
+.md-7 {
+    width: 58.4%;
+}
+.md-5 {
+    width: 41.6%;
+}

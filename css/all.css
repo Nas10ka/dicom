@@ -62,7 +62,7 @@ div, body, textarea, span, p, a {
 .bold {
     font-weight: 600;
 }
-.doc-element__inline div {display: inline;vertical-align: top;}
+.doc-element__inline .doc-element__inline  {display: inline;vertical-align: top;}
 
 .doc-element__btns {
     float: right;

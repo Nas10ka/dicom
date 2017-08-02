@@ -3,65 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <title>DIcom documents</title>
-    <link rel="stylesheet" href="css/block/DocElementSector.css">
+    <link rel="stylesheet" href="css/block/doc.css">
+    <link rel="stylesheet" href="css/block/docSectorInline.css">
+    <link rel="stylesheet" href="css/block/docSectorTop.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
     <script src="https://use.fontawesome.com/c01f568b8e.js"></script>
 </head>
 <body>
-<div class="DocElementSector">
     <div class="container">
-        <div class="doc" style="
-    padding: 16px;
-">
-            <div class="doc-element">
-                <div class="doc-element__title">Інформація про предмет закупівлі</div>
-                <div class="doc-element__text">джерело безперебійного живлення для персонального комо'ютера
-                    Cyber Power UT450E 450VA(UT 450E)
+        <div class="doc">
+
+            <!--docSectorTop - start -->
+            <div class="docSectorTop">
+                <div class="doc-element">
+                    <div class="doc-element__title">Інформація про предмет закупівлі</div>
+                    <div class="doc-element__text">джерело безперебійного живлення для персонального комо'ютера
+                        Cyber Power UT450E 450VA(UT 450E)
+                    </div>
                 </div>
-            </div>
-            <div class="doc-element">
-                <div class="doc-element__inline">
-                <div class="doc-element__text">
-                    <span class="bold">Опис окремої частини або частин предмета закупівлі</span>
-                </div>
-                <div class="doc-element__btns">
-                    <button class="doc-element__btns__btn doc-element__btns__edit"><i class="fa fa-pencil" aria-hidden="true"></i></button>
-                    <button class="doc-element__btns__btn doc-element__btns__settings"><i class="fa fa-cog" aria-hidden="true"></i></button>
-                </div>
-                </div>
-            </div>
-            <div class="doc-element">
-                <div class="doc-element__edited">
-                    <textarea name="edit" cols="30" rows="10" class="doc-element__textarea"></textarea>
-                    <div class="doc-element__text-val">sfwrwerwerwer
-                        sdfrwerjwejrowir fffffffffffffffffffffffffffffffffsewwererrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrwerer
-                        fjkefwev</div>
-                </div>
-            </div>
-            <div class="doc-element">
-                <div class="doc-element__inline">
-                    <div class="doc-element__text">
+                <div class="doc-element">
+                    <div class="doc-element__inline">
+                    <div class="doc-element__text doc-element__inline-block">
                         <span class="bold">Опис окремої частини або частин предмета закупівлі</span>
                     </div>
-                    <div class="doc-element__btns">
+                    <div class="doc-element__btns  doc-element__inline-block">
+                        <button class="doc-element__btns__btn doc-element__btns__edit"><i class="fa fa-pencil" aria-hidden="true"></i></button>
                         <button class="doc-element__btns__btn doc-element__btns__settings"><i class="fa fa-cog" aria-hidden="true"></i></button>
                     </div>
-                </div>
-                </div>
-            <div class="doc-element">
-                <div class="doc-element__row">
-                    <div class="col md-7">
-                    <textarea name="edit" cols="30" rows="10" class="doc-element__textarea"></textarea>
                     </div>
-                    <div class="col md-5">
+                </div>
+                <div class="doc-element">
+                    <div class="doc-element__edited">
+                        <textarea name="edit" cols="30" rows="10" class="doc-element__textarea"></textarea>
                         <div class="doc-element__text-val">sfwrwerwerwer
-                        sdfrwerjwejrowir fffffffffffffffffffffffffffffffffsewwererrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrwerer
-                        fjkefwev</div></div>
+                            sdfrwerjwejrowir fffffffffffffffffffffffffffffffffsewwererrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrwerer
+                            fjkefwev</div>
+                    </div>
                 </div>
             </div>
+            <!--docSectorTop - finished -->
+
+            <!--docSectorInline - start-->
+            <div class="docSectorInline">
+                <div class="doc-element">
+                    <div class="doc-element__inline">
+                        <div class="doc-element__text  doc-element__inline-block">
+                            <span class="bold">Опис окремої частини або частин предмета закупівлі</span>
+                        </div>
+                        <div class="doc-element__btns  doc-element__inline-block">
+                            <button class="doc-element__btns__btn doc-element__btns__settings"><i class="fa fa-cog" aria-hidden="true"></i></button>
+                        </div>
+                    </div>
+                    </div>
+                <div class="doc-element">
+                    <div class="doc-element__row">
+                        <div class="col md-7">
+                        <textarea name="edit" cols="30" rows="10" class="doc-element__textarea"></textarea>
+                        </div>
+                        <div class="col md-5">
+                            <div class="doc-element__text-val">sfwrwerwerwer
+                            sdfrwerjwejrowir fffffffffffffffffffffffffffffffffsewwererrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrwerer
+                            fjkefwev</div></div>
+                    </div>
+                </div>
+            </div>
+            <!--docSectorInline - finished-->
         </div>
     </div>
-</div>
 
 </body>
 </html>

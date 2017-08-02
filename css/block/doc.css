@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    width:100%;
+    position: relative;
+    /*background: #f5f6fa;*/
+}
+div, body, textarea, span, p, a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    line-height: 1.6;
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    max-width: 1140px;
+    margin: auto;
+    padding: 0 16px;
+}
+.doc {
+    width:100%;
+    border: 2px solid #e1e5ed;
+    padding: 16px;
+    background: #f5f6fa;
+}

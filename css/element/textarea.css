@@ -1,0 +1,12 @@
+.textarea {
+    width: 100%;
+    border: 2px solid #e1e5ed;
+    resize: none;
+    padding: 8px 16px;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Open Sans', sans-serif;
+    word-wrap: break-word;
+    margin: 0 0 8px;
+    outline: none;
+}
